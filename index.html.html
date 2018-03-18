@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<title>stuffed</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="myStyleGuide.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Baloo|Montserrat" rel="stylesheet">
+<!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata"> -->
+<link href="StyleGuide.css" rel="stylesheet" type="text/css">
+<body>
+
+<!-- Header links here -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3" id="header-color">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block w3-hover-white" >HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-hover-white">TESTIMONIALS</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-hover-white">MENU</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-hover-white">FIND US</a>
+    </div>
+  </div>
+</div>
+
+<!-- Hero image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-large" id="wsection">
+
+  <!-- Contact/Area Container for stuffed shop -->
+  <div class="w3-container" id="where" style="padding-bottom:32px;">
+    <div class="w3-content" style="max-width:900px">
+      <h5 class="w3-center w3-padding-48"><span class="w3-wide">WHERE TO FIND STUFFED</span></h5>
+      <img src="./img/stuffedmap.png"  alt="Deb">
+      <div class="w3-col s6">
+      <p><span class="w3">Address</span><br />17 Pike St. <br /> Seattle, WA 98112 <br /> Ph: 419-908-1325 </p>
+      </div>
+      <div class="w3-col s6">
+      <p><span class="w3">Hours</span> <br /> Monday to friday: 7am to Sold out <br /> Saturday: 9am to Sold out</p>
+      </div>
+    </div>
+  </div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:900px">
+
+    <h5 class="w3-center w3-padding-48"><span class=" w3-wide">THE MENU</span></h5>
+
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+        <div class="w3-col s4 tablink w3">Signatures</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+        <div class="w3-col s4 tablink w3">Seasonals</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Stuffed');">
+        <div class="w3-col s4 tablink w3">Just Stuffed</div>
+      </a>
+    </div>
+
+    <div id="Eat" class="w3-container menu w3-padding-48 w3-card">
+      <h5 class="receipe">Flava Flav</h5>
+      <p class="w3-text-grey">Peanut butter & banana with banana filling </p><br>
+
+      <h5 class="receipe">Maple Babe</h5>
+      <p class="w3-text-grey">Maple frosting & filling with bacon bits on top</p><br>
+
+      <h5 class="receipe">Janeway</h5>
+      <p class="w3-text-grey">Hezelnut frosting with coffee pudding filling</p><br>
+
+      <h5 class="receipe">Great balls on fire</h5>
+      <p class="w3-text-grey">Smores toppings with marshmallow filling</p><br>
+
+      <h5 class="receipe">Yo Momma's</h5>
+      <p class="w3-text-grey">Real strawberries with cheesecake filling</p><br />
+
+      <h5 class="receipe">Buddy the Elf</h5>
+      <p class="w3-text-grey">Candy, candy canes, candy corn & syrup </p><br />
+
+      <h5 class="receipe">Bubbly Bubbly</h5>
+      <p class="w3-text-grey">Powdered doughnut with bubblegum filling</p>
+    </div>
+
+    <div id="Drinks" class="w3-container menu w3-padding-48 w3-card">
+      <h5 class="receipe">Yoda</h5>
+      <p class="w3-text-grey">Caramel glaze with baked apple pie filling</p><br>
+
+      <h5 class="receipe">Valley Girl</h5>
+      <p class="w3-text-grey">Pumpkin pie filling topped with baked apples</p><br>
+
+      <h5 class="receipe">Let it Linger</h5>
+      <p class="w3-text-grey">Powdered with a spiced cranberry filling</p>
+    </div>
+    <div id="Stuffed" class="w3-container menu w3-padding-48 w3-card">
+      <h5 class="receipe">Nutella</h5><br />
+      <h5 class="receipe">PB & J</h5><br />
+      <h5 class="receipe">Lemon</h5> <br />
+      <h5 class="receipe">Banana pudding</h5> <br />
+      <h5 class="receipe">Brownie batter</h5>
+    </div>
+  </div>
+</div>
+
+<!---Signature section goes here-->
+<div class="w3-container">
+  <div class="w3-content" id="doughnut">
+    <h5 class="w3-center w3-padding-48"><span class="w3-wide">SIGNATURE'S</span></h5>
+      <div class="w3-row">
+      <div class="w3-col m3">
+      <img src="./img/stuffed1.jpg" class="w3-circle" alt="Donut">
+      <p class="sign">Flava Flav</p>
+      </div>
+      <div class="w3-col m3">
+      <img src="./img/stuffed3.jpg" class="w3-circle" alt="Donut">
+        <p class="sign">Janeway</p>
+      </div>
+      <div class="w3-col m3">
+      <img src="./img/stuffed7.jpg" class="w3-circle" alt="Donut">
+        <p class="sign">Yo Momma's</p>
+      </div>
+      <div class="w3-col m3">
+      <img src="./img/stuffed6.jpg" class="w3-circle" alt="Donut">
+      <p class="sign">Buddy the Elf</p>
+      </div>
+      </div>
+  </div>
+</div>
+
+<!--picture of the truck-->
+<div class="w3-container" >
+  <div class="w3-content"id="truck" >
+    <h5 class="w3-center w3-padding-48"><span class="w3-wide">STUFFED TRUCK</span></h5>
+
+      <div class="w3-col m6">
+      <img src="./img/backtruck.png" class="w3-round-small" alt="Truck1">
+      </div>
+      <div class="w3-col m6">
+      <img src="./img/finalfoodtruck.png" class="w3w3-round-small" alt="Truck2">
+      </div>
+  </div>
+
+</div>
+
+
+<!-- Testimonials section here -->
+<div class="w3-container" id="about">
+  <div class="w3-content" >
+    <h5 class="w3-center w3-padding-64"><span class="w3-wide">TESTIMONIALS</span></h5>
+          <div class="w3-row" id="test">
+          <div class="w3-col m4">
+          <img src="./img/test1.jpg"   alt="Donut">
+          <p class="test"> Love-love their Yo Momma’s doughnut! And they have my son's favorite, Bubbly Bubbly.</p>
+          </div>
+          <div class="w3-col m4">
+          <img src="./img/test2.jpg"  alt="Donut">
+          <p class="test"> The doughnuts are so good and I find myself constantly craving them. Especially the Maple babe, it’s
+sooo addicting.</p>
+          </div>
+          <div class="w3-col m4">
+          <img src="./img/test3.jpg" alt="Donut">
+          <p class="test"> The doughnuts are made fresh in front of you.I had a Janeway and it melted in my mouth. </p>
+          </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Instragram section -->
+<div class="w3-container" id="testimonials">
+  <div class="w3-content" id="post">
+      <div class="w3-row">
+      <div class="w3-col m3">
+      <img src="./img/insta1.jpg"  alt="abby & chels">
+      </div>
+      <div class="w3-col m3">
+      <img src="./img/insta2.jpg" alt="Spencer">
+      </div>
+      <div class="w3-col m3">
+      <img src="./img/insta3.jpg" alt="Erik">
+      </div>
+      <div class="w3-col m3">
+      <img src="./img/insta4.jpg" alt="Deb">
+      </div>
+      </div>
+      <p class="instragram"> #getStuffed your face for a free doughnut hole </p>
+  </div>
+</div>
+
+
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <div class="w3-container" id="about">
+    <div class="w3-content" style="max-width:700px">
+      <h4 class="social"> Follow us on</h4>
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-instagram"></a>
+    </div>
+    <div class="w3-row">
+      <div class="w3-col m3">
+
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+<!-- Add Google Maps -->
+<script>
+function myMap()
+{
+  myCenter=new google.maps.LatLng(41.878114, -87.629798);
+  var mapOptions= {
+    center:myCenter,
+    zoom:12, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+</body>
+</html>
