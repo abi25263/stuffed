@@ -34,6 +34,7 @@ color:#520720;
  background-repeat: no-repeat;
  background-size: cover;
  position: relative;
+ background-position: top;
 }
 .menu {
     display: none;
@@ -119,11 +120,10 @@ color:#520720;
   margin-bottom: 50px;
 }
 
-/*--recipe color --*/
-
-a.w3-col s4 tablink w3 w3-dark-grey{
-  background:#d7eae5!important;
-}
+/*--recipe color
+.w3-hover-dark-grey:hover, .w3-dark-gray, .w3-hover-dark-gray:hover{
+  color:black!important;
+} --*/
 /*---address secion here --*/
 .w3-col.s6{
   padding-top: 20px!important;
@@ -170,4 +170,29 @@ a.w3-col s4 tablink w3 w3-dark-grey{
 .fa-instagram {
     background: #d7eae5;
     color: #520720;
+}
+.responsive {
+    width: 95%;
+    height: auto;
+}
+
+/*-- code for media screen responsive --*/
+@media (max-width: 600px) {
+  .bgimg {
+    background-position: center 50px;
+    background-image: url("./img/heroimage.jpg");
+    width: 100%;
+    height: 250px;
+  }
+}
+@media (max-width:600px) {
+/*--  .w3-button {
+  font-size: 12px;
+  }
+  a.w3-hover-white:hover {
+    font-size: 12px;
+  }--*/
+  #testify {
+    display:none;
+  }
 }
