@@ -27,7 +27,7 @@ color:#520720;
   color:#520720;
 }
 .bgimg {
-  background-image: url("./img/heroimage.jpg");
+  background-image: url("../img/heroimage.jpg");
  height: 100%;
  width:auto;
  /*--background-position: center;--*/
