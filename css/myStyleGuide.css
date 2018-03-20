@@ -49,7 +49,7 @@ color:#520720;
 /*---background color for entire section goes here --*/
 #wsection {
   background-color: white;
-  background-image:url(./img/paterrn.png);
+  background-image:url(../img/paterrn.png);
 }
 .w3-tag {
   background-color: #520720!important;
